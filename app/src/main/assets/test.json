@@ -1,0 +1,89 @@
+{
+  "className": "hasbrain.com.appkit.container.POLinearLayout",
+  "children": [
+    {
+      "className": "hasbrain.com.appkit.widget.POCarouselView",
+      "slideInterval": 500,
+      "layoutParams": {
+        "className": "hasbrain.com.appkit.container.layoutparams.POLinearLayoutParams",
+        "width": -1,
+        "height": 1000
+      },
+      "pages": [
+        {
+          "className": "hasbrain.com.appkit.widget.POView",
+          "background": "0,#ff0000"
+        },
+        {
+          "className": "hasbrain.com.appkit.widget.POView",
+          "background": "0,#565656"
+        },
+        {
+          "className": "hasbrain.com.appkit.widget.POView",
+          "background": "0,#8a8a8a"
+        },
+        {
+          "className": "hasbrain.com.appkit.widget.POView",
+          "background": "0,#fafafa"
+        },
+        {
+          "className": "hasbrain.com.appkit.widget.POView",
+          "background": "0,#000000"
+        }
+      ]
+    },
+    {
+      "className": "hasbrain.com.appkit.widget.POView",
+      "background": "0,#00BBFA",
+      "layoutParams": {
+        "className": "hasbrain.com.appkit.container.layoutparams.POLinearLayoutParams",
+        "width": -1,
+        "height": 150
+      }
+    },
+    {
+      "className": "hasbrain.com.appkit.widget.POView",
+      "background": "0,#36FA00",
+      "layoutParams": {
+        "className": "hasbrain.com.appkit.container.layoutparams.POLinearLayoutParams",
+        "width": 300,
+        "height": 300,
+        "layoutGravity": 5,
+        "marginRight": 50
+      }
+    },
+    {
+      "className": "hasbrain.com.appkit.container.POLinearLayout",
+      "background": "0,#FA00E9",
+      "orientation": 0,
+      "gravity": 17,
+      "paddingTop": 20,
+      "paddingBottom": 20,
+      "layoutParams": {
+        "className": "hasbrain.com.appkit.container.layoutparams.POLinearLayoutParams",
+        "width": -1,
+        "height": -2
+      },
+      "children": [
+        {
+          "className": "hasbrain.com.appkit.widget.POTextView",
+          "text": "Hello world",
+          "layoutParams": {
+            "className": "hasbrain.com.appkit.container.layoutparams.POLinearLayoutParams",
+            "width": -2,
+            "height": -2,
+            "marginRight": 50
+          }
+        },
+        {
+          "className": "hasbrain.com.appkit.widget.POButton",
+          "layoutParams": {
+            "className": "hasbrain.com.appkit.container.layoutparams.POLinearLayoutParams",
+            "width": -2,
+            "height": -2
+          }
+        }
+      ]
+    }
+  ]
+}
